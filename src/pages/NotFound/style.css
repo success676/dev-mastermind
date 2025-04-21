@@ -1,0 +1,335 @@
+/* NotFound.css */
+.not-found-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Stars background */
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="10" cy="10" r="0.5" fill="white"/><circle cx="20" cy="30" r="0.5" fill="white"/><circle cx="30" cy="50" r="0.5" fill="white"/><circle cx="40" cy="70" r="0.5" fill="white"/><circle cx="50" cy="90" r="0.5" fill="white"/><circle cx="60" cy="20" r="0.5" fill="white"/><circle cx="70" cy="40" r="0.5" fill="white"/><circle cx="80" cy="60" r="0.5" fill="white"/><circle cx="90" cy="80" r="0.5" fill="white"/></svg>');
+  opacity: 0.5;
+}
+
+.twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  animation: twinkle 5s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+}
+
+.not-found-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.error-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.error-text h1 {
+  font-size: 8rem;
+  margin: 0;
+  background: linear-gradient(135deg, #6e45e2 0%, #89d4cf 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+}
+
+.error-text h2 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.error-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* Astronaut animation */
+.astro-animation {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.astronaut {
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(-50%, -55%); }
+  50% { transform: translate(-50%, -45%); }
+}
+
+/* Astronaut parts */
+.helmet {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 0;
+  left: 15px;
+  box-shadow: inset -10px -10px 0 0 #e6e6e6;
+}
+
+.face {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  top: 50px;
+  left: 40px;
+}
+
+.eyes {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 0 10px;
+}
+
+.eye {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0%, 49%, 51%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.1); }
+}
+
+.mouth {
+  width: 30px;
+  height: 5px;
+  background-color: #333;
+  border-radius: 5px;
+  margin: 5px auto 0;
+}
+
+.body {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 90px;
+  left: 35px;
+  box-shadow: inset -10px -10px 0 0 #e6e6e6;
+}
+
+.arms, .legs {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  left: 15px;
+}
+
+.arms {
+  top: 100px;
+}
+
+.legs {
+  top: 170px;
+}
+
+.arm, .leg {
+  width: 20px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  animation: swing 3s infinite ease-in-out;
+}
+
+.arm.left, .leg.left {
+  animation-delay: 0.1s;
+}
+
+@keyframes swing {
+  0%, 100% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+}
+
+/* Space objects */
+.planet {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 30%, #6e45e2, #4a1fd3);
+  border-radius: 50%;
+  top: 50px;
+  right: 0;
+  animation: rotate 20s linear infinite;
+}
+
+.satellite {
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 10px;
+  bottom: 100px;
+  left: 20px;
+  animation: orbit 15s linear infinite;
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.star.small {
+  width: 3px;
+  height: 3px;
+  top: 30px;
+  left: 50px;
+  animation: twinkle-star 3s infinite;
+}
+
+.star.medium {
+  width: 5px;
+  height: 5px;
+  top: 150px;
+  right: 50px;
+  animation: twinkle-star 4s infinite 1s;
+}
+
+.star.large {
+  width: 7px;
+  height: 7px;
+  bottom: 50px;
+  right: 100px;
+  animation: twinkle-star 5s infinite 2s;
+}
+
+@keyframes twinkle-star {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+}
+
+/* Button styles */
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #6e45e2 0%, #89d4cf 100%);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(110, 69, 226, 0.4);
+  overflow: hidden;
+  position: relative;
+}
+
+.home-button span {
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.home-button svg {
+  fill: none;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  position: relative;
+  z-index: 1;
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(110, 69, 226, 0.6);
+}
+
+.home-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #89d4cf 0%, #6e45e2 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.home-button:hover::before {
+  opacity: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .not-found-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .error-text h1 {
+    font-size: 6rem;
+  }
+  
+  .error-text h2 {
+    font-size: 2rem;
+  }
+  
+  .astro-animation {
+    width: 250px;
+    height: 250px;
+  }
+}
