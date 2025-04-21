@@ -26,7 +26,7 @@ function App() {
 
           <Route path="/" element={<Navigate to="/dev-mastermind" />} />
 
-          <Route path="/*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
