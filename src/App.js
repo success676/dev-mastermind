@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import Skills from './pages/Skills';
 import Project from './pages/Project';
 import Contacts from './pages/Contacts';
+import NotFound from './pages/NotFound/NotFound';
 
 import ScrollToTop from './utils/scrollToTop';
 
@@ -24,6 +25,8 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
 
           <Route path="/" element={<Navigate to="/dev-mastermind" />} />
+
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
