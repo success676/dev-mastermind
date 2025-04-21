@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dev-mastermind/static/css/main.285e7aca.css",
-    "main.js": "/dev-mastermind/static/js/main.0be6f8da.js",
+    "main.js": "/dev-mastermind/static/js/main.28533adc.js",
     "static/js/787.328c1e5a.chunk.js": "/dev-mastermind/static/js/787.328c1e5a.chunk.js",
     "static/media/parallax-forest-big.jpg": "/dev-mastermind/static/media/parallax-forest-big.fc6046f4a64b8570ac65.jpg",
     "static/media/portfolio-big.jpg": "/dev-mastermind/static/media/portfolio-big.a9110f021d3634260f7e.jpg",
@@ -30,11 +30,11 @@
     "static/media/linkedIn.svg": "/dev-mastermind/static/media/linkedIn.55523f62797ddb51e960322dd47e5636.svg",
     "index.html": "/dev-mastermind/index.html",
     "main.285e7aca.css.map": "/dev-mastermind/static/css/main.285e7aca.css.map",
-    "main.0be6f8da.js.map": "/dev-mastermind/static/js/main.0be6f8da.js.map",
+    "main.28533adc.js.map": "/dev-mastermind/static/js/main.28533adc.js.map",
     "787.328c1e5a.chunk.js.map": "/dev-mastermind/static/js/787.328c1e5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.285e7aca.css",
-    "static/js/main.0be6f8da.js"
+    "static/js/main.28533adc.js"
   ]
 }
