@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dev-mastermind/static/css/main.285e7aca.css",
+    "main.js": "/dev-mastermind/static/js/main.0be6f8da.js",
+    "static/js/787.328c1e5a.chunk.js": "/dev-mastermind/static/js/787.328c1e5a.chunk.js",
+    "static/media/parallax-forest-big.jpg": "/dev-mastermind/static/media/parallax-forest-big.fc6046f4a64b8570ac65.jpg",
+    "static/media/portfolio-big.jpg": "/dev-mastermind/static/media/portfolio-big.a9110f021d3634260f7e.jpg",
+    "static/media/cyberaim-big.jpg": "/dev-mastermind/static/media/cyberaim-big.d921500c30ec017001ab.jpg",
+    "static/media/site-candle-big.jpg": "/dev-mastermind/static/media/site-candle-big.71e4227ac0a8838f4338.jpg",
+    "static/media/airpodsmax-big.jpg": "/dev-mastermind/static/media/airpodsmax-big.537c98ed0021f5d6191f.jpg",
+    "static/media/react-shop-big.jpg": "/dev-mastermind/static/media/react-shop-big.1a8bfaf62fbc2685d838.jpg",
+    "static/media/currency-converter-big.jpg": "/dev-mastermind/static/media/currency-converter-big.683b8ff2a49b4b60541a.jpg",
+    "static/media/parallax-forest.jpg": "/dev-mastermind/static/media/parallax-forest.dd7fbcd27e1a82dab75d.jpg",
+    "static/media/tetris-big.jpg": "/dev-mastermind/static/media/tetris-big.fb41e1fb9f240782ce65.jpg",
+    "static/media/portfolio.jpg": "/dev-mastermind/static/media/portfolio.eda82548806ed545e12b.jpg",
+    "static/media/cyberaim.jpg": "/dev-mastermind/static/media/cyberaim.fe251cac402261940796.jpg",
+    "static/media/site-candle.jpg": "/dev-mastermind/static/media/site-candle.5072f5329abbf1f619a7.jpg",
+    "static/media/airpodsmax.jpg": "/dev-mastermind/static/media/airpodsmax.300baa77fe1a590727b4.jpg",
+    "static/media/react-shop.jpg": "/dev-mastermind/static/media/react-shop.e84f314235f98324a4b0.jpg",
+    "static/media/header-bg.png": "/dev-mastermind/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/currency-converter.jpg": "/dev-mastermind/static/media/currency-converter.9b3dab37eaf49241a770.jpg",
+    "static/media/tetris.jpg": "/dev-mastermind/static/media/tetris.2b6e5b4716716713ac07.jpg",
+    "static/media/sun.svg": "/dev-mastermind/static/media/sun.f8606845ee97bee21c3bc95b2dec3866.svg",
+    "static/media/moon.svg": "/dev-mastermind/static/media/moon.312bed9230c94183d589bcc499993093.svg",
+    "static/media/gitHub.svg": "/dev-mastermind/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
+    "static/media/gitHub-black.svg": "/dev-mastermind/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
+    "static/media/instagram.svg": "/dev-mastermind/static/media/instagram.6b0ce32a930db2eac1c21600458a8cd0.svg",
+    "static/media/vk.svg": "/dev-mastermind/static/media/vk.92c39b2c917df4fd4643503dd57a49bf.svg",
+    "static/media/twitter.svg": "/dev-mastermind/static/media/twitter.9ca7b7d7634476270a563192e3f69250.svg",
+    "static/media/linkedIn.svg": "/dev-mastermind/static/media/linkedIn.55523f62797ddb51e960322dd47e5636.svg",
+    "index.html": "/dev-mastermind/index.html",
+    "main.285e7aca.css.map": "/dev-mastermind/static/css/main.285e7aca.css.map",
+    "main.0be6f8da.js.map": "/dev-mastermind/static/js/main.0be6f8da.js.map",
+    "787.328c1e5a.chunk.js.map": "/dev-mastermind/static/js/787.328c1e5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285e7aca.css",
+    "static/js/main.0be6f8da.js"
+  ]
+}
