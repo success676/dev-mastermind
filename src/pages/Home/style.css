@@ -1,0 +1,115 @@
+/* Home/style.css */
+/* Section */
+.section {
+  padding: 100px 0;
+  position: relative;
+  background-color: var(--section-bg);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+/* Title */
+/* .title-home {
+  margin-bottom: 20px;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+}
+
+.title-gradient {
+  background: linear-gradient(90deg, var(--accent), #4e54c8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+} */
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Projects Grid */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Project Item Animation */
+.project-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--delay);
+}
+
+.project-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover Effects */
+.project-item:hover {
+  transform: translateY(-5px) !important;
+}
+
+.project-item:hover .project__img {
+  transform: scale(1.05);
+}
+
+.project-item:hover .project__title {
+  color: var(--accent);
+}
+
+.project-item:hover .project__content {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-item:hover .project__skills {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .projects {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 70px 0;
+  }
+  
+  .section-header {
+    margin-bottom: 60px;
+  }
+  
+  .project-item {
+    transition-delay: 0s !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+}
